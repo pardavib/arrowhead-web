@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19a7a672-544e-4484-a995-662a94418205" name="SSSL" url="http://sssl.sch.bme.hu/arrowhead">
+        <fileTransfer host="wadon-ng.sch.bme.hu" port="21" accessType="FTPS" password="dfcfdf98df93dfe2dfe1dfd0dfcbdfcbdfe9dfd0" username="sssl.sch.bme.hu">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

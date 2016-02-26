@@ -1,0 +1,14 @@
+h1, h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p.connected {
+    color: green !important;
+    font-weight: bold;
+}
+
+p.disconnected {
+    color: darkred !important;
+    font-weight: bold;
+}
