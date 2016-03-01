@@ -21,7 +21,7 @@
                                 <label class="col-md-4 control-label">IP address</label>
 
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="address" value="127.0.0.1">
+                                    <input type="text" class="form-control" name="address" value="152.66.245.169">
 
                                     @if ($errors->has('address'))
                                         <span class="help-block">
@@ -35,7 +35,7 @@
                                 <label class="col-md-4 control-label">Database name</label>
 
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="database" value="arrowhead">
+                                    <input type="text" class="form-control" name="database" value="core">
 
                                     @if ($errors->has('database'))
                                         <span class="help-block">
@@ -49,7 +49,7 @@
                                 <label class="col-md-4 control-label">Database username</label>
 
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="username" value="root">
+                                    <input type="text" class="form-control" name="username" value="arrowhead">
 
                                     @if ($errors->has('username'))
                                         <span class="help-block">
@@ -95,7 +95,7 @@
                                 <label class="col-md-4 control-label">IP address</label>
 
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="address2" value="127.0.0.1">
+                                    <input type="text" class="form-control" name="address2" value="152.66.245.167">
 
                                     @if ($errors->has('address2'))
                                         <span class="help-block">
@@ -109,7 +109,7 @@
                                 <label class="col-md-4 control-label">Database name</label>
 
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="database2" value="arrowhead">
+                                    <input type="text" class="form-control" name="database2" value="core">
 
                                     @if ($errors->has('database2'))
                                         <span class="help-block">
@@ -123,7 +123,7 @@
                                 <label class="col-md-4 control-label">Database username</label>
 
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" name="username2" value="root">
+                                    <input type="text" class="form-control" name="username2" value="arrowhead">
 
                                     @if ($errors->has('username2'))
                                         <span class="help-block">

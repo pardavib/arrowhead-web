@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Traits\ConnectionTrait;
 use Illuminate\Support\Facades\Redirect;
 use Yajra\Datatables\Datatables;
+use Carbon\Carbon;
 
 class LogsController extends Controller
 {
@@ -32,23 +33,42 @@ class LogsController extends Controller
 
     public function messages(Request $request)
     {
-        if (!session('databaseA')) {
+
+
+        if (!(session('databaseA') || session('databaseB'))) {
             flash()->error("You are not connected to the remote database!");
             return redirect()->route('home');
         }
 
         $this->connectA();
 
-        $logs = Log::message()->orderBy('id', 'DESC')->limit(10)->get();
+        $logsA = Log::message()->orderBy('id', 'DESC')->limit(30)->get();
 
-        foreach ($logs as $log) {
+        foreach ($logsA as $log) {
 
             list($direction, $message) = explode('.', $log->message);
             $log->direction = $direction;
             $log->message = $message;
+            $log->cloud = "A";
         }
 
-        return view('messages', compact('logs'));
+        $this->connectB();
+
+        //Log::resolveConnection()->reconnect();
+
+        $logsB = Log::message()->orderBy('id', 'DESC')->limit(30)->get();
+
+        foreach ($logsB as $log) {
+
+            list($direction, $message) = explode('.', $log->message);
+            $log->direction = $direction;
+            $log->message = $message;
+            $log->cloud = "B";
+        }
+
+        //dd($logsB);
+
+        return view('messages', compact('logsA', 'logsB'));
     }
 
     public function getLogData(Request $request, $cloud)
@@ -56,8 +76,7 @@ class LogsController extends Controller
 
         if ($cloud == "b") {
             $this->connectB();
-        }
-        else {
+        } else {
             $this->connectA();
         }
 

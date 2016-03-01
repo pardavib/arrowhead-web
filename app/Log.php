@@ -19,7 +19,7 @@ class Log extends Model
 
     public function scopeMessage($query)
     {
+        \Cache::flush();
         $query->where('message', 'LIKE', 'IN%')->orWhere('message', 'LIKE', 'OUT%');
     }
-
 }
