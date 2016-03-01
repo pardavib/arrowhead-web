@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ff6d771-3544-4dc0-a848-24f5ed0b9d66" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/LogsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/LogsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Traits/ConnectionTrait.php" afterPath="$PROJECT_DIR$/app/Http/Traits/ConnectionTrait.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Log.php" afterPath="$PROJECT_DIR$/app/Log.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/connect.blade.php" afterPath="$PROJECT_DIR$/resources/views/connect.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/messages.blade.php" afterPath="$PROJECT_DIR$/resources/views/messages.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/utilities.blade.php" afterPath="$PROJECT_DIR$/resources/views/utilities.blade.php" />
-    </list>
+    <list default="true" id="6ff6d771-3544-4dc0-a848-24f5ed0b9d66" name="Default" comment="" />
     <ignored path="arrowhead.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -55,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Log.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Log.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Log.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29726776">
+            <state vertical-scroll-proportion="-10.461538">
               <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commands.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/commands.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.18579236">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -467,7 +466,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2780837" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -781,14 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/commands.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ConnectionsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -893,8 +884,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Log.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29726776">
+        <state vertical-scroll-proportion="-10.461538">
           <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/commands.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18579236">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
           <folding />
         </state>
       </provider>
